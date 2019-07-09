@@ -2,9 +2,9 @@
  	<p style="font-weight: bold;font-size:30px;">カテゴリ用ののテンプレ category.phpだよ～ん</p>
 <!-- カテゴリページやタグページにタイトルを追加する -->
 <?php if(is_category() || is_tag()): ?>
-  <h1><?php single_cat_title() ?>の記事一覧</h1>
+  <h1><?php single_cat_title() ?>の記事　一覧</h1>
 <?php elseif(is_year()): ?>
-  <h1><?php the_time("Y年") ?>の記事一覧</h1>
+  <h1><?php the_time("Y年") ?>の記事　一覧</h1>
 <?php elseif(is_month()): ?>
   <h1><?php the_time("Y年m月") ?>の記事一覧</h1>
 <?php endif; ?>

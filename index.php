@@ -1,7 +1,7 @@
 <?php get_header(); ?>
       <div class="mv">
         <div class="mv__inner">
-          <p class="mv__img"><img class="is-pc" src="<?php echo get_template_directory_uri(); ?>/img/top/pc/mv01.png" alt="楽器で脳活！全国の楽器店にて楽器で脳活！キャンペーン開催！"><img class="is-sp" src="<?php echo get_template_directory_uri(); ?>/img/top/sp/mv01.png" alt="楽器で脳活！全国の楽器店にて楽器で脳活！キャンペーン開催！"></p>
+          <p class="mv__img"><img class="is-pc" src="<?php echo get_template_directory_uri(); ?>/img/top/pc/mv01.png" alt="楽器で脳活！全国の楽器店にて楽器で脳活！キャンペーン開催！"><img class="is-sp" src="<?php echo get_template_directory_uri(); ?>/img/top/sp/mv01.png" alt="楽器で脳活！"></p>
         </div>
       </div>
 
