@@ -41,6 +41,13 @@
     <?php the_tags('<ul><li>タグ： </li><li>','</li><li>','</li></ul>'); ?>
   </div>
   <!--/タグ-->
+<!--------------CommentArea--------------->
+<div class="col-full">
+  <div class="wrap-col">
+    <?php comments_template(); ?>
+  </div><!-- ^ .wrap-col END-->
+</div><!-- ^ .col-full END-->
+<!--------------CommentArea END--------------->
 </article>
 <?php endif; ?>
 </div>

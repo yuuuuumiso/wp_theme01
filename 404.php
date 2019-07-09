@@ -1,6 +1,6 @@
 <?php
 get_header(); ?>
 
-<p>404です</p>
+ 	<p style="font-weight: bold;font-size:30px;">404のテンプレート 404.phpだよ～～ん</p>
 
 <?php get_footer(); ?>
